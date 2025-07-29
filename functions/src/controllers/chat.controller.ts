@@ -2,15 +2,12 @@ import { HttpsError, onCall } from "firebase-functions/v2/https";
 import { genkit } from "genkit/beta";
 import { googleAI } from "@genkit-ai/googleai";
 
-/** Initialize the Genkit AI engine with Gemini 2.0 Flash model. */
 const ai = genkit({
   plugins: [googleAI()],
   model: googleAI.model("gemini-2.0-flash"),
 });
 
-/**
- * Cloud function that handles incoming chat messages and returns AI-generated responses.
- */
+
 export const chat = onCall({}, async (request) => {
   const { message } = request.data;
 
