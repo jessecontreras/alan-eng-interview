@@ -1,0 +1,213 @@
+{
+  "id": "anonymous",
+  "threads": {
+    "main": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "text": "You are a health assistant. You help people achieve maximum happiness and wellness.\n- Use the getDoctor tool if someone asks who their doctor is.\n- Use the getDoctorAppointmentsByDate tool if someone asks when a doctor is available on a specific day.\n- Dates might be written naturally like \"next Friday\" or \"August 10th 2025\" — convert them into standard date format first."
+          }
+        ],
+        "metadata": {
+          "preamble": true
+        }
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "text": "How's it going?"
+          }
+        ]
+      },
+      {
+        "role": "model",
+        "content": [
+          {
+            "text": "I am doing well, thank you for asking! How can I help you today?\n"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "text": "My name is Jesse I'm just letting you know."
+          }
+        ]
+      },
+      {
+        "role": "model",
+        "content": [
+          {
+            "text": "Nice to meet you, Jesse. Is there anything I can help you with today?\n"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "text": "What's my name?"
+          }
+        ]
+      },
+      {
+        "role": "model",
+        "content": [
+          {
+            "text": "Your name is Jesse.\n"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "text": "Beautiful"
+          }
+        ]
+      },
+      {
+        "role": "model",
+        "content": [
+          {
+            "text": "How can I help you, Jesse?\n"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "text": "What's my name?"
+          }
+        ]
+      },
+      {
+        "role": "model",
+        "content": [
+          {
+            "text": "Your name is Jesse.\n"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "text": "Hey how's it going?"
+          }
+        ]
+      },
+      {
+        "role": "model",
+        "content": [
+          {
+            "text": "I'm doing well, thanks for asking. How can I help you today?\n"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "text": "What's my name?"
+          }
+        ]
+      },
+      {
+        "role": "model",
+        "content": [
+          {
+            "text": "Your name is Jesse.\n"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "text": "What's the date today?"
+          }
+        ]
+      },
+      {
+        "role": "model",
+        "content": [
+          {
+            "text": "I am sorry, I cannot fulfill this request. The available tools do not have access to the current date. Is there anything else I can help you with?\n"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "text": "Hey"
+          }
+        ]
+      },
+      {
+        "role": "model",
+        "content": [
+          {
+            "text": "Hi Jesse, how can I help you today?\n"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "text": "I thought you forgot about me"
+          }
+        ]
+      },
+      {
+        "role": "model",
+        "content": [
+          {
+            "text": "I will always remember you, Jesse. How can I help you today?\n"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "text": "Hola"
+          }
+        ]
+      },
+      {
+        "role": "model",
+        "content": [
+          {
+            "text": "Hola Jesse, how can I assist you today?\n"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "text": "What is my name?"
+          }
+        ]
+      },
+      {
+        "role": "model",
+        "content": [
+          {
+            "text": "Your name is Jesse.\n"
+          }
+        ]
+      }
+    ]
+  },
+  "state": {
+    "userName": "Pavel"
+  }
+}
